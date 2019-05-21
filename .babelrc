@@ -1,0 +1,20 @@
+{
+	"presets": ["@babel/preset-env", "@babel/preset-react"],
+	"plugins": [
+		[
+			"prismjs",
+			{
+				"languages": ["bash", "javascript", "css", "markup", "jsx"],
+				"plugins": [
+					"command-line",
+					"line-highlight",
+					"line-numbers",
+					"normalize-whitespace",
+					"toolbar"
+				],
+				"css": true,
+				"theme": "default"
+			}
+		]
+	]
+}
